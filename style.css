@@ -80,16 +80,14 @@
 
   /* banner section style start here */
   
-/* .banner-section {
-  text-align: center;
-  padding: 150px 0px;
-  line-height: 47px;
-} */
 .banner-section {
   text-align: center;
   padding: 150px 0px;
   line-height: 47px;
-  background: linear-gradient(#086a81,#008000d6,#032f5af7);
+  background: linear-gradient(#044f92b2,#00800091,#013f7ecc),url(banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .banner-section > h1 {
   font-size: 70px;
