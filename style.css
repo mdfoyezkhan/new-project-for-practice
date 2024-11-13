@@ -90,9 +90,26 @@
   background-position: center;
 }
 .banner-section > h1 {
-  font-size: 70px;
+  font-size: 60px;
   text-transform: capitalize;
-  padding: 35px 0px;
+  padding: 10px 2px;
+  animation: typing 3s steps(20) infinite alternate;
+  white-space: nowrap;
+  width: 7ch;
+  border-right: 2px solid black;
+  margin: 35px auto;
+  overflow: hidden;
+}
+.typing {
+  color: #1610de;
+}
+@keyframes typing{
+  0%{
+    width: 7ch;
+  }
+  100%{
+    width: 20ch;
+  }
 }
 .banner-section >h4 {
   font-size: 28px;
