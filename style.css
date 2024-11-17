@@ -280,4 +280,52 @@
   color: aliceblue !important;
 }
 
+/* practice for transform style start here */
+
+
+.rotate-section {
+  padding: 50px 10% 100px 10%;
+  background: #057e16;
+}
+.rotate-sengle-box-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 34px;
+  flex-wrap: wrap;
+}
+.rotate-box {
+  display: flex;
+  width: 590px;
+  height: 180px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to left, rgba(18, 11, 236, 0.77),rgba(125, 8, 168, 0.79));
+  border-radius: 15px;
+  box-shadow: 0px 0px 28px 0px #3207ce;
+}
+.rotate-box:hover .rotate-img{
+  transform: perspective(378px) rotateY(-48deg);
+  box-shadow: 0px 0px 17px -1px #d2cee2;
+}
+.rotate-img {
+  width: 350px;
+  overflow: hidden;
+  right: 25px;
+  border-radius: 15px;
+  transition:.5s;
+  height: 149px;
+}
+.rotate-img img {
+  width: 100%;
+  border-radius: 15px;
+  height: 100%;
+}
+.rotate-box h1 {
+  text-transform: uppercase;
+  line-height: 37px;
+  color: white;
+}
+
 
